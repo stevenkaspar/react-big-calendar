@@ -48,10 +48,6 @@ class Resizer extends React.Component {
   }
 
   _mouseDown (e) {
-    e.preventDefault();
-    e.stopPropagation();
-    e.nativeEvent.stopImmediatePropagation();
-
     // Right clicks
     if(e.which === 3 || e.button === 2){
       return;
@@ -74,6 +70,10 @@ class Resizer extends React.Component {
       if (result === false)
         return;
     }
+
+    e.preventDefault();
+    e.stopPropagation();
+    e.nativeEvent.stopImmediatePropagation();
 
     this._onMouseUpListener   = addEventListener('mouseup',   this._mouseUp)
     this._onMouseMoveListener = addEventListener('mousemove', this._mouseMove)
