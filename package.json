@@ -1,12 +1,12 @@
 {
   "name": "react-dom-calendar",
-  "version": "0.15.0",
+  "version": "0.15.1",
   "description": "Calendar! with events",
   "author": "Jason Quense <monastic.panic@gmail.com>",
   "contributors": [
     {
-      "name" : "Steven Kaspar", 
-      "email" : "srkaspar@gmail.com"
+      "name": "Steven Kaspar",
+      "email": "srkaspar@gmail.com"
     }
   ],
   "repository": "stevenkaspar/react-big-calendar",
